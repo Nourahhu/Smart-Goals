@@ -17,7 +17,7 @@ if (isset($_POST["submit"])) {
     $newPassword = $_POST["new_pass"];
     $confirmPassword = $_POST["c_pass"];
 
-    var_dump($_SESSION["user"]);
+   // var_dump($_SESSION["user"]);
 
     // Check if old password matches with the one stored in the session or database
     $userPassword = $_SESSION["user"]["password"];
